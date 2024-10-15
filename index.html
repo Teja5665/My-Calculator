@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <center>
+        <div id="container">
+            <input id="button" type="text" disabled><br>
+            <button id="operators" onclick="clear_scr()">AC</button>
+            <button id="operators" onclick="backspace()">⌫</button>
+            <button id="operators" onclick="my_fun('%')">%</button>
+            <button id="operators" onclick="my_fun('/')">/</button><br>
+            <button id="numbers" onclick="my_fun(7)">7</button>
+            <button id="numbers" onclick="my_fun(8)">8</button>
+            <button id="numbers" onclick="my_fun(9)">9</button>
+            <button id="operators"" onclick="my_fun('*')">X</button><br>
+            <button id="numbers" onclick="my_fun(4)">4</button>
+            <button id="numbers" onclick="my_fun(5)">5</button>
+            <button id="numbers" onclick="my_fun(6)">6</button>
+            <button id="operators" onclick="my_fun('-')">-</button><br>
+            <button id="numbers" onclick="my_fun(1)">1</button>
+            <button id="numbers" onclick="my_fun(2)">2</button>
+            <button id="numbers" onclick="my_fun(3)">3</button>
+            <button id="operators" onclick="my_fun('+')">+</button><br>                   
+            <button id="numbers" onclick="my_fun(0)">0</button>
+            <button id="numbers" onclick="my_fun('00')">00</button>
+            <button id="numbers" onclick="my_fun('.')">.</button>
+            <button id="operators" onclick="calculate()">=</button>
+        </div> 
+        
+    </center>
+</body>
+</html>
